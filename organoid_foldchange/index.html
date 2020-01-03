@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Excel to JSON</title>
+
+</head>
+
+<body>
+    <h1>Plate Reader Average Tool</h1>
+    <p>This tool helps you get the averages for Organoid Drug Screen</p>
+
+
+    Choose Input File:<input type="file" id="real-file"><br>
+    Number of Plates Read(must be greater than 0):<input type="text" id="numberOfPlates"><br>
+    Create Output File Name(must be .csv):<input type="text"><br>
+    <button type="button" id="btn">Create Averages</button><br>
+
+    <div id="saved"></div>
+
+    <!--links JQuery to HTML file-->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+    <!--links javascript file to html file-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./test.js" type="text/html" ></script>
+    <!-- <script>
+        function myFunction() {
+            console.log("clicked");
+            var value = $("#real-file").val().trim();
+            console.log("value", value);
+            var plateNumber = $("#numberOfPlates").val().trim();
+            console.log(plateNumber);
+        }
+    </script> -->
+
+
+</body>
+
+</html>
